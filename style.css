@@ -1,0 +1,59 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+font-size: 30px;
+color: white;
+background-color: rgba(0, 0, 0, 0.829);
+overflow: hidden;
+}
+
+
+
+.square{
+width: 400px;
+height: 400px;
+background-color: gold;
+border: 3px solid black;
+animation: color 2.5s ease-in-out infinite;
+
+}
+
+
+.two {
+animation-direction: alternate ;
+
+
+
+}
+
+
+@keyframes color {
+25% {
+width: 400px;
+background-color: gold;
+}
+
+50% {
+width: 800px;
+background-color: royalblue;
+}
+
+75% {
+width: 400px;
+background-color: goldenrod;
+}
+
+
+100% {
+width: 200px;
+background-color: lime;
+}
+
+
+}
